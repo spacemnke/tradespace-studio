@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tradespace.studio/sitemap.xml
