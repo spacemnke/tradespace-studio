@@ -39,11 +39,8 @@ a:hover .text-link>span[aria-hidden],a.text-link:hover>span[aria-hidden]{transfo
 .section-label h2{font:inherit}
 .product+.product{margin-top:34px}
 .product-link{display:block}
-.pluck-artwork{background:var(--pluck-yellow);aspect-ratio:2.43;position:relative;isolation:isolate;overflow:hidden}
-.pluck-art-copy{position:absolute;z-index:1;left:5%;top:15%;width:29%;height:72%;display:flex;flex-direction:column;justify-content:space-between}
-.pluck-logo{width:100%;height:auto;max-width:320px}
-.pluck-art-copy p{font-family:Studio Serif,Georgia,serif;font-size:clamp(32px,4.4vw,64px);line-height:.98;letter-spacing:-.035em;color:var(--pluck-ink)}
-.pluck-hero{position:absolute;right:1.5%;top:3%;height:94%;width:62%;object-fit:contain}
+.pluck-artwork{background:var(--pluck-paper)}
+.pluck-artwork>img{width:100%;height:auto}
 .product-caption{display:grid;grid-template-columns:34% minmax(0,1fr) auto;align-items:start;gap:20px;padding-top:16px}
 .product-caption h3{font-size:clamp(23px,2.75vw,40px);font-weight:700;line-height:1.05;letter-spacing:-.045em}
 .product-copy{padding-top:1px}
@@ -72,9 +69,6 @@ a:hover .text-link>span[aria-hidden],a.text-link:hover>span[aria-hidden]{transfo
  .hero{padding:18px 0 24px}.hero h1{font-size:clamp(36px,9.8vw,75px);line-height:.98;letter-spacing:-.055em}
  .hero-bottom{margin-top:24px;align-items:flex-end;gap:28px}.hero-bottom p{font-size:15px;max-width:235px;line-height:1.35}.scroll-cue{flex-shrink:0;width:32px}
  .section-label{font-size:12px;padding:12px 0}
- .pluck-artwork{aspect-ratio:auto;height:470px}.pluck-art-copy{top:28px;left:26px;width:calc(100% - 52px);height:auto;display:block}
- .pluck-logo{width:185px;max-width:70%;height:auto}.pluck-art-copy p{font-size:33px;line-height:1.02;margin-top:22px}
- .pluck-hero{width:96%;height:280px;top:auto;bottom:6px;right:2%}
  .product-caption{grid-template-columns:1fr;gap:12px;padding-top:16px}.product-caption h3{font-size:29px}.product-copy .product-tagline{font-size:18px}.product-copy>p:last-child{font-size:14px;line-height:1.4;max-width:36ch}
  .product-visit{justify-self:start;font-size:14px;min-height:38px}.product+.product{margin-top:32px}
  .discord-artwork{overflow:hidden}.discord-artwork>img{width:155%;max-width:none;height:auto;margin-left:-55%}.concept-label{font-size:9px;right:8px;bottom:6px}
@@ -82,5 +76,5 @@ a:hover .text-link>span[aria-hidden],a.text-link:hover>span[aria-hidden]{transfo
  .contact-section{align-items:flex-start;flex-direction:column;gap:12px;padding:24px 0 12px}.contact-section h2{font-size:38px;line-height:1.05;max-width:7.5em}.contact-section .text-link{font-size:15px}
  .site-footer{font-size:10px;padding:20px 0 24px;gap:16px}
 }
-@media(max-width:359px){:root{--gutter:16px}.site-header nav{gap:13px}.hero h1{font-size:9.65vw}.hero-bottom p{max-width:210px}.pluck-artwork{height:430px}.pluck-hero{height:250px}.studio-statement{font-size:35px}.contact-section h2{font-size:34px}}
+@media(max-width:359px){:root{--gutter:16px}.site-header nav{gap:13px}.hero h1{font-size:9.65vw}.hero-bottom p{max-width:210px}.studio-statement{font-size:35px}.contact-section h2{font-size:34px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
